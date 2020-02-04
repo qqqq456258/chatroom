@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>註冊畫面</title>
+    <style type="text/css">
+        form{
+            line-height: 2em;
+        }
+        form>input{
+            padding: 5px 10px;
+            border: 1px solid #AAA ;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+	<form action="join.php" method="POST">
+		<table align="center" border="0" width="30%">
+			<tr>
+				<td>帳號：</td>
+				<td><input type="text" name="UserID" id="UserID" size="25"></td>
+			</tr>
+			<tr>
+				<td>密碼：</td>
+				<td><input type="password" name="psw" id="psw" size="25"></td>
+			</tr>
+			<tr>
+				<td>再次輸入密碼：</td>
+				<td><input type="password" name="psw2" id="psw2" size="25"></td>
+			</tr>
+			<tr>
+				<td>姓名：</td>
+				<td><input type="text" name="name" id="name" size="25"></td>
+			</tr>
+			<tr>
+				<td>Email：</td>
+				<td><input type="Email" name="email" id="email" size="25"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="送出"></td>
+				<td><input type="reset" value="重設"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
